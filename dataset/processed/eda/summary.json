@@ -1,0 +1,209 @@
+{
+  "total_images": 87867,
+  "classes": 38,
+  "plant_species": 14,
+  "split_counts": {
+    "train": {
+      "images": 70295,
+      "classes": 38
+    },
+    "valid": {
+      "images": 17572,
+      "classes": 38
+    }
+  },
+  "class_counts": {
+    "train": {
+      "Apple___Apple_scab": 2016,
+      "Apple___Black_rot": 1987,
+      "Apple___Cedar_apple_rust": 1760,
+      "Apple___healthy": 2008,
+      "Blueberry___healthy": 1816,
+      "Cherry_(including_sour)___Powdery_mildew": 1683,
+      "Cherry_(including_sour)___healthy": 1826,
+      "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": 1642,
+      "Corn_(maize)___Common_rust_": 1907,
+      "Corn_(maize)___Northern_Leaf_Blight": 1908,
+      "Corn_(maize)___healthy": 1859,
+      "Grape___Black_rot": 1888,
+      "Grape___Esca_(Black_Measles)": 1920,
+      "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": 1722,
+      "Grape___healthy": 1692,
+      "Orange___Haunglongbing_(Citrus_greening)": 2010,
+      "Peach___Bacterial_spot": 1838,
+      "Peach___healthy": 1728,
+      "Pepper,_bell___Bacterial_spot": 1913,
+      "Pepper,_bell___healthy": 1988,
+      "Potato___Early_blight": 1939,
+      "Potato___Late_blight": 1939,
+      "Potato___healthy": 1824,
+      "Raspberry___healthy": 1781,
+      "Soybean___healthy": 2022,
+      "Squash___Powdery_mildew": 1736,
+      "Strawberry___Leaf_scorch": 1774,
+      "Strawberry___healthy": 1824,
+      "Tomato___Bacterial_spot": 1702,
+      "Tomato___Early_blight": 1920,
+      "Tomato___Late_blight": 1851,
+      "Tomato___Leaf_Mold": 1882,
+      "Tomato___Septoria_leaf_spot": 1745,
+      "Tomato___Spider_mites Two-spotted_spider_mite": 1741,
+      "Tomato___Target_Spot": 1827,
+      "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 1961,
+      "Tomato___Tomato_mosaic_virus": 1790,
+      "Tomato___healthy": 1926
+    },
+    "valid": {
+      "Apple___Apple_scab": 504,
+      "Apple___Black_rot": 497,
+      "Apple___Cedar_apple_rust": 440,
+      "Apple___healthy": 502,
+      "Blueberry___healthy": 454,
+      "Cherry_(including_sour)___Powdery_mildew": 421,
+      "Cherry_(including_sour)___healthy": 456,
+      "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot": 410,
+      "Corn_(maize)___Common_rust_": 477,
+      "Corn_(maize)___Northern_Leaf_Blight": 477,
+      "Corn_(maize)___healthy": 465,
+      "Grape___Black_rot": 472,
+      "Grape___Esca_(Black_Measles)": 480,
+      "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": 430,
+      "Grape___healthy": 423,
+      "Orange___Haunglongbing_(Citrus_greening)": 503,
+      "Peach___Bacterial_spot": 459,
+      "Peach___healthy": 432,
+      "Pepper,_bell___Bacterial_spot": 478,
+      "Pepper,_bell___healthy": 497,
+      "Potato___Early_blight": 485,
+      "Potato___Late_blight": 485,
+      "Potato___healthy": 456,
+      "Raspberry___healthy": 445,
+      "Soybean___healthy": 505,
+      "Squash___Powdery_mildew": 434,
+      "Strawberry___Leaf_scorch": 444,
+      "Strawberry___healthy": 456,
+      "Tomato___Bacterial_spot": 425,
+      "Tomato___Early_blight": 480,
+      "Tomato___Late_blight": 463,
+      "Tomato___Leaf_Mold": 470,
+      "Tomato___Septoria_leaf_spot": 436,
+      "Tomato___Spider_mites Two-spotted_spider_mite": 435,
+      "Tomato___Target_Spot": 457,
+      "Tomato___Tomato_Yellow_Leaf_Curl_Virus": 490,
+      "Tomato___Tomato_mosaic_virus": 448,
+      "Tomato___healthy": 481
+    }
+  },
+  "dimensions": [
+    {
+      "width": 256,
+      "height": 256,
+      "count": 87867
+    }
+  ],
+  "missing_images": [],
+  "unreadable_images": [],
+  "cross_split_source_overlap_count": 7625,
+  "cross_split_source_overlap_examples": [
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "00075aa8-d81a-4184-8541-b692b78d398a___FREC_Scab 3335"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "01f3deaa-6143-4b6c-9c22-620a46d8be04___FREC_Scab 3112"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "0208f4eb-45a4-4399-904e-989ac2c6257c___FREC_Scab 3037"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "023123cb-7b69-4c9f-a521-766d7c8543bb___FREC_Scab 3487"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "0261a6e4-21f8-481a-8827-b674e6955644___FREC_Scab 3055"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "03354abb-aa1c-4f9d-a1ef-9f40505cd539___FREC_Scab 3355"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "0340dc35-5215-48ab-8db7-06af99fcb358___FREC_Scab 2966"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "0395b847-2c73-4674-826f-33a6afb5b4fe___FREC_Scab 3287"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "0537ad56-3d24-4e97-a947-65b9b37f8988___FREC_Scab 3079"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "058d5e64-2c57-45ba-94cb-ac83fd1885a0___FREC_Scab 3181"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "06cf74b6-d895-4a09-b3b1-bc63579f8c33___FREC_Scab 3128"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "073b509f-c1ea-4e61-881b-2e874c5f4199___FREC_Scab 3286"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "0812e1e4-6d1b-4264-8f23-6519354fc5a6___FREC_Scab 3293"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "0896ecbc-1af2-4868-8279-ed302acb29bc___FREC_Scab 3339"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "08c42d78-aa7b-4106-b0c1-b260f898dcba___FREC_Scab 3151"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "09ba6ad9-aa8d-4493-b1bf-818a4b30c4aa___FREC_Scab 2981"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "09e40e4f-f8bc-4537-b20d-0b244760dbf4___FREC_Scab 3216"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "0a5e9323-dbad-432d-ac58-d291718345d9___FREC_Scab 3417"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "0a6812de-7416-4ffe-aba9-307599a02c84___FREC_Scab 2973"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "0a769a71-052a-4f19-a4d8-b0f0cb75541c___FREC_Scab 3165"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "0b1e31fa-cbc0-41ed-9139-c794e6855e82___FREC_Scab 3089"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "0c620ec5-11cf-4120-94ab-1311e99df147___FREC_Scab 3131"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "0d8d5b80-962d-4381-8d3b-9eca3f2f1bb0___FREC_Scab 3449"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "11f5b020-3dfd-400c-9819-7d229bc5f929___FREC_Scab 2945"
+    },
+    {
+      "class_name": "Apple___Apple_scab",
+      "source_stem": "13b16e68-c82c-4de8-ab34-877ff352e821___FREC_Scab 3180"
+    }
+  ]
+}

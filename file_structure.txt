@@ -1,0 +1,36 @@
+Leaf_disease_detector/
+|-- .gitignore
+|-- README.md
+|-- file_structure.txt
+|-- requirements.txt
+|-- test_kaggle.ipynb
+|-- config/
+|   `-- config.yaml
+|-- data/                              (downloaded dataset; ignored by Git)
+|   |-- New_Plant_Diseases_Dataset(Augmented)/
+|   |   `-- New Plant Diseases Dataset/
+|   |       |-- train/                 (38 class folders)
+|   |       `-- valid/                 (38 class folders)
+|   `-- test/
+|       `-- test/                      (unlabeled images)
+|-- dataset/
+|   |-- processed/
+|   |   |-- train.csv                 (generated image manifest)
+|   |   `-- valid.csv                 (generated image manifest)
+|   `-- raw/                           (empty)
+|-- models/                           (empty)
+|-- notebooks/
+|   |-- P1_EDA.ipynb
+|   |-- P2_FeatureEngineering.ipynb
+|   `-- P2.5_ErrAnalysis.ipynb
+`-- src/
+    |-- __init__.py
+    |-- dataset.py
+    |-- evaluate.py
+    |-- model.py
+    |-- train.py
+    `-- training_log.py
+
+Notes:
+- `.git/` and `.venv/` are omitted; they are Git internals and a local Python environment.
+- The downloaded data is shown only by its top-level folders to keep this tree concise.
