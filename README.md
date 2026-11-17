@@ -1,4 +1,4 @@
-# Leaves_Diseases_PR
+# Leaf_detector_model
 Dự án phát hiện và phân loại các loại bệnh trên lá cây ăn quả
 
 Nguồn dataset vui lòng tải tại trang này: https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset/data
